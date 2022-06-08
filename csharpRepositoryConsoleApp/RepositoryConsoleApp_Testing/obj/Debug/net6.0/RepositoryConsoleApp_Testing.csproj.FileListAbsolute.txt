@@ -1,0 +1,5 @@
+C:\Users\Floria\Desktop\DotnetConsoleAppProject\csharpRepositoryConsoleApp\RepositoryConsoleApp_Testing\obj\Debug\net6.0\RepositoryConsoleApp_Testing.csproj.AssemblyReference.cache
+C:\Users\Floria\Desktop\DotnetConsoleAppProject\csharpRepositoryConsoleApp\RepositoryConsoleApp_Testing\obj\Debug\net6.0\RepositoryConsoleApp_Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Floria\Desktop\DotnetConsoleAppProject\csharpRepositoryConsoleApp\RepositoryConsoleApp_Testing\obj\Debug\net6.0\RepositoryConsoleApp_Testing.AssemblyInfoInputs.cache
+C:\Users\Floria\Desktop\DotnetConsoleAppProject\csharpRepositoryConsoleApp\RepositoryConsoleApp_Testing\obj\Debug\net6.0\RepositoryConsoleApp_Testing.AssemblyInfo.cs
+C:\Users\Floria\Desktop\DotnetConsoleAppProject\csharpRepositoryConsoleApp\RepositoryConsoleApp_Testing\obj\Debug\net6.0\RepositoryConsoleApp_Testing.csproj.CoreCompileInputs.cache
