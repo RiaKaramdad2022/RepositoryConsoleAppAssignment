@@ -12,7 +12,7 @@ namespace RepositoryConsoleApp_Console
             DeliveryRepository repo = new DeliveryRepository();
             repo.DatabaseInit();           
             
-            Console.WriteLine("Welcome to the Warner Tansit , please slect option:");
+            Console.WriteLine("Welcome to the Warner Tansit Federal. Please select an option in order to continue:");
             Console.WriteLine($"Take a look at deliveries:  1");
             Console.WriteLine($"Cancel delivery:            2");
             Console.WriteLine($"Update delivery:            3");
@@ -26,22 +26,11 @@ namespace RepositoryConsoleApp_Console
                 case "2": cancelDelivery();
                             break;
                 case "3": updateDelivery();
+                            default:
                             break;
-            }
+            }         
 
-
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-
-            //Todo
+            // To do
 
             Console.WriteLine("Input item number to get delivery details");
 
@@ -51,14 +40,7 @@ namespace RepositoryConsoleApp_Console
 
             Console.WriteLine("Item Number: "+d.ItemNum);
             Console.WriteLine("Delivery Date: "+d.DeliveryDate);
-
-
-
-
-
         }
-
-
 
         private static void lookAtDeliveries(DeliveryRepository repository){
 
@@ -68,14 +50,16 @@ namespace RepositoryConsoleApp_Console
                 Console.WriteLine(element);
             }
             
-
-
         }
         private static void cancelDelivery(){
+            var Delivery = Delivery.ItemNum;
+            OrderStatus = "Cancelled";
 
         }
         private static void updateDelivery(){
-
+            var delivery = new delivery
+            History.Add(delivery);
+            CurrentInformation = delivery;
         }
     }
 }
